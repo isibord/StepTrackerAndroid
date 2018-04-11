@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3ecf5"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/maintv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/steps_tracked"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:max="500"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular" />
+
+        <TextView
+            android:id="@+id/maintv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/steps_tracked"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

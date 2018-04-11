@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StepTracker</string>
+    <string name="action_debug">Debug View</string>
+    <string name="steps_tracked">Steps Tracked: 0</string>
+    <string name="android_steps_tracked">Android Steps Tracked: 0</string>
+</resources>

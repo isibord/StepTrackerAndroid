@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DebugActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/debugTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="DEBUG VIEW"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/steps_tracked" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_steps_tracked" />
+
+        <!-- Use weights to split the screen in half -->
+        <com.jjoe64.graphview.GraphView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/graph" />
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/graph2" />
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO TO HOME"
+            android:onClick="onClickBtn" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
