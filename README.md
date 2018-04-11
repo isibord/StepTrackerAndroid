@@ -19,6 +19,6 @@ The design rationale behind this interface were primarily – goal setting and p
 
 ![Fig1](https://github.com/isibord/StepTrackerAndroid/blob/master/blob/Fig1.PNG)
 
-![Fig2](https://github.com/isibord/StepTrackerAndroid/blob/master/blob/Fig2.PNG)
+![Fig2](https://github.com/isibord/StepTrackerAndroid/blob/master/blob/Fig2.png)
 
-![Fig3](https://github.com/isibord/StepTrackerAndroid/blob/master/blob/Fig3.PNG)
+![Fig3](https://github.com/isibord/StepTrackerAndroid/blob/master/blob/Fig3.png)
